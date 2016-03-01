@@ -4,7 +4,7 @@ An ever-expanding list of Ruby regular expressions for the legal field.
 
 ### Full-Text Citation to Federal or State Cases
 ```
-/((([Ee]x\srel\.\sof\s|the\s))?[A-Z]?[a-z]{0,2}([A-Z]\.)*[A-Z][a-z\-\.\`\,\']+(?<![Ss]ee)(?<![Cc]f\.)(?<![Cc]ompare)(?<![Ii]n)(\s\&)?[\s])+[Vv]\.((\s\&)?(\s)?([Ee]x\srel\.\s)?(of\s|the\s)?([A-Z]\.)*[A-Za-z][a-z\-\.\`\,\']+)+\s(\d+\s[\w\.]+\s\d+\,\s\d+\,\s)?(\d+\s[\w\.\s\d]+(\,\s)?)+((\d+(\-\d+)?\s?)|\s?(\([\w\s\.]*\d{4}\)))?\([\w\s\.]*\d{4}\)/
+/((([Ee]x\srel\.\s))?(of\s|the\s)?[A-Z]?[a-z]{0,2}([A-Z]\.)*[A-Z][a-z\-\.\`\,\']+(?<![Ss]ee)(?<![Cc]f\.)(?<![Cc]ompare)(?<![Ii]n)(\s\&)?[\s])+[Vv]\.((\s\&)?(\s)?([Ee]x\srel\.\s)?(of\s|the\s)?([A-Z]\.)*[A-Za-z][a-z\-\.\`\,\']+)+\s(\d+\s[\w\.]+\s\d+\,\s\d+\,\s)?(\d+\s[\w\.\s\d]+(\,\s)?)+((\d+(\-\d+)?\s?)|\s?(\([\w\s\.]*\d{4}\)))?\([\w\s\.]*\d{4}\)/
 ```
 
 Matches most full-text citations to federal and state cases (work in progress - see issues).
